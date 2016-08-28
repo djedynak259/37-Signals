@@ -1,0 +1,387 @@
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Crimson Text', sans-serif;
+}
+
+hr {
+	clear: both;
+	background: white url('../img/img-hr.png') no-repeat 50%;
+	height: 12px;
+	border: none;
+}
+
+h1 {
+	color: #232323;
+	font-size: 48px;
+	line-height: 52px;
+	letter-spacing: -1px;
+	margin: 20px 0;
+	text-align: center;
+}
+/*NAV*/
+
+nav {
+	height:50px;
+}
+
+nav ul {
+	float: right;
+	margin: 5px 30px;
+	padding: 5px;
+}
+nav li{
+	display: inline-block;
+	margin: 10px;
+}
+nav a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #369
+}
+
+nav a:hover {
+	color: #18AFE0;
+}
+
+.signin {
+	color: #18AFE0;
+}
+
+.signin:hover {
+	color: #369369;
+}
+
+/*HEADER*/
+
+header, section {
+	clear: both;
+	width: 825px;
+	margin: 30px auto;
+}
+
+header {
+	text-align: center;
+}
+
+header h2 {
+	font-size: 20px;
+}
+
+.products {
+	height: 300px;
+	display: flex;
+	justify-content: center;
+}
+
+.products div {
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px; 
+	width: 200px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.products h3 {
+	color: #336699;
+	font-weight: bold;
+	margin-bottom: 12px;
+	font-size: 21px;
+	line-height: 32px;
+}
+
+.products span {
+	text-decoration: underline;
+	font-size: 2.7rem;
+}
+
+.products sup {
+	color: #999999;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.products h4 {
+	margin: 12px 0;
+	font-size: 14px;
+	color: #C00C00;
+}
+
+.products p {
+	color: #222222;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 5px 0;
+}
+
+/*CUSTOMERS*/
+
+.customers {
+	position: relative;
+	margin-bottom: 100px;
+	color: #656565;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.customers p {
+	font-size: 2rem;
+}
+
+.pics {
+    left: -152px;
+    position: absolute;
+    top: 68px;
+}
+
+.pics a {
+	background: url('../img/img-customers.png');
+	display: block;
+	height: 104px;
+	text-indent: -1000px;
+	width: 143px;
+}
+
+.pics a:hover {
+	background-position: 0 100%;
+}
+
+.pics p {
+	color: #336699;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+}
+
+.pics p:hover {
+	color: #6699CC;	
+	text-decoration: underline;
+}
+
+.arrow {
+	position: relative;
+	height: 36px;
+	top: -36px;
+}
+
+.globe{
+	float: right;
+}
+
+.customers p {
+	margin-bottom: 25px;
+}
+
+/** MANIFESTO **/
+#manifesto {
+	height: 445px;
+	margin-bottom: 50px;
+}
+
+#manifesto .column,
+#manifesto .column-end {
+	color: #222222;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	height: 385px;
+	line-height: 27px;
+	width: 45%;
+}
+
+#manifesto .column-end {
+	margin-left: 7%;
+}
+
+#manifesto .chapter {
+	clear: left;
+	color: #CCCCCC;
+	float: left;
+	font-family: 'Crimson Text', sans-serif;
+	font-size: 58px;
+	line-height: normal;
+	margin: -10px 15px 0 0;
+	
+}
+
+#manifesto li {
+	color: #CCCCCC;
+	font-family: 'Crimson Text', sans-serif;
+	font-size: 58px;
+	line-height: normal;
+}
+
+#manifesto .title {
+	color: #CC0000;
+	font-weight: bold;
+	margin: 5px 0;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+#manifesto p {
+	font-size: 12px;	
+	line-height: 16px;
+	text-align: left;
+}
+
+/** REWORK **/
+.rework {
+	height: 500px;
+	position: relative;
+}
+
+.book {
+	float:left;
+}
+
+.quotes {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.quotes div {
+	color: #888;
+	font-weight: normal;
+	font-family: "CrimsonRomanItalic", serif;
+	font-style: italic;
+	font-size: 22px;
+	margin-bottom: 10px;
+	margin-top: 35px;
+}
+
+.quotes p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+/** ARROW RIGHT IMAGE **/
+.arrow-right {
+	right: 5px;
+	position: absolute;
+	top: 140px;
+	width: 69px;
+}
+
+/** CRUMPLED PAPER IMAGE **/
+.crumple {
+	right: -125px;
+	position: absolute;
+	top: 50px;
+}
+
+.crumple p {
+	font-size: 12px;
+	text-align: center;
+}
+
+.crumple p:hover {
+	color: #6699CC;
+	text-decoration: underline;
+}
+
+/** OFFERSINGS **/
+#offerings {
+	height: 415px;
+	text-align: center;
+}
+
+#offerings h2 {
+	border-bottom: 1px solid #E8E8E8;
+	color: #C00;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin: 5px 0;
+}
+
+#offerings .column,
+#offerings .column-end {
+	color: #222222;
+	float: left;
+	font-size: 18px;
+	height: 385px;
+	line-height: 27px;
+	margin-left: 11%;
+	width: 37%;
+}
+
+#offerings .column-end {
+	margin-left: 7%;
+}
+
+#offerings li,
+#offerings li {
+	list-style-type: none;
+	padding: 5px;
+}
+
+#offerings a,
+#offerings a {
+	font-size: 22px;
+	font-weight: bold;
+	color: #222222;
+}
+
+#offerings small,
+#offerings small {
+	color: #656565;
+	font-size: 12px;
+	font-family: 'Lucida Grande', sans-serif;
+}
+
+/* Footer */
+footer {
+	font-family: 'Lucida Grande', sans-serif;
+	line-height: 1.5em;
+	margin: 30px auto;
+	text-align: center;
+}
+
+footer h3 {
+	font-size: 14px;
+	color: #CC0000;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer li {
+	font-size: 12px;
+	padding: 5px 0;
+}
+
+footer a:hover {
+	color: #669C9C;
+}
+
+footer p {
+	font-size: 10px;
+	color: #999999;	
+	margin-top: 50px;
+}
+
+@media (max-width: 1140px){
+	.pics, .arrow, .arrow-right, .crumple {
+		display: none;
+	}
+}
+
+
+@media (max-width:950px) {
+	header, section {
+		width: 90%;
+	}
+
+}
