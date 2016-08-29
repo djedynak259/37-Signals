@@ -76,7 +76,6 @@ header h2 {
 }
 
 .products {
-	height: 300px;
 	display: flex;
 	justify-content: center;
 }
@@ -88,7 +87,7 @@ header h2 {
 	border-radius: 5px; 
 	width: 200px;
 	padding: 20px;
-	margin: 20px;
+	margin: 3%;
 }
 
 .products h3 {
@@ -184,17 +183,17 @@ header h2 {
 
 /** MANIFESTO **/
 #manifesto {
-	height: 445px;
 	margin-bottom: 50px;
+	text-align: center;
 }
 
 #manifesto .column,
 #manifesto .column-end {
 	color: #222222;
-	float: left;
+	display: inline-block;
+	vertical-align: top;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-	height: 385px;
 	line-height: 27px;
 	width: 45%;
 }
@@ -210,7 +209,7 @@ header h2 {
 	font-family: 'Crimson Text', sans-serif;
 	font-size: 58px;
 	line-height: normal;
-	margin: -10px 15px 0 0;
+	margin: -10px 15px 16px 0;
 	
 }
 
@@ -238,7 +237,6 @@ header h2 {
 
 /** REWORK **/
 .rework {
-	height: 500px;
 	position: relative;
 }
 
@@ -293,7 +291,6 @@ header h2 {
 
 /** OFFERSINGS **/
 #offerings {
-	height: 415px;
 	text-align: center;
 }
 
@@ -308,11 +305,11 @@ header h2 {
 #offerings .column,
 #offerings .column-end {
 	color: #222222;
-	float: left;
+	display: inline-block;
+	vertical-align: top;
 	font-size: 18px;
-	height: 385px;
 	line-height: 27px;
-	margin-left: 11%;
+	margin-left: 2%;
 	width: 37%;
 }
 
@@ -384,4 +381,52 @@ footer p {
 		width: 90%;
 	}
 
+}
+
+@media (max-width:750px) {
+	#manifesto .column,
+	#manifesto .column-end, #offerings .column,
+	#offerings .column-end {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.customers img {
+		display: none;
+	}
+
+	.products{
+		flex-direction: column;
+	}
+
+	.products div {
+		width: 80%;
+		margin: 2% auto;
+	}
+
+	nav ul {
+		float: none;
+		text-align: center;
+	}
+
+	footer p {
+		width: 80%;
+		margin: 10px auto 0;
+	}
+}
+
+@media (max-width: 550px) {
+	nav {
+		height:auto;
+	}
+
+	nav li {
+		display: block;
+		text-align: center;
+		border: 1px solid black;
+		padding: 10px;
+		width: 80%;
+		margin: 2% auto;
+	}
 }
