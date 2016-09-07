@@ -213,6 +213,12 @@ header h2 {
 	
 }
 
+@media (max-width: 750px) {
+	#manifesto .chapter {
+		line-height: 66px;
+	}
+}
+
 #manifesto li {
 	color: #CCCCCC;
 	font-family: 'Crimson Text', sans-serif;
@@ -416,7 +422,7 @@ footer p {
 	}
 }
 
-@media (max-width: 550px) {
+@media (max-width: 561px) {
 	nav {
 		height:auto;
 	}
@@ -424,9 +430,10 @@ footer p {
 	nav li {
 		display: block;
 		text-align: center;
-		border: 1px solid black;
+		border: 1px solid #b4b4b4;
 		padding: 10px;
 		width: 80%;
 		margin: 2% auto;
+		border-radius: 3px;
 	}
 }
